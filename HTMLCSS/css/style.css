@@ -22,6 +22,9 @@ body{
 .cl{
     clear: both;
 }
+img{
+   border: none;
+}
 
 .top span.mr_0{
     margin: 0;
@@ -47,6 +50,8 @@ body{
 .sousuo{
     width:350px ;
     height:21px;
+    margin-top: 15px;
+
 }
 .td{
     height: 21px;
@@ -57,9 +62,34 @@ body{
  }
 .s_c{
     width:240px;
-    background: url("../images/img2_05.jpg") repeat;
+    background: url("../images/img2_05.jpg") repeat-x;
 }
 .s_y{
     width:78px;
     background: url("../images/s_r.jpg") no-repeat;
+}
+.logo{
+    height: 31px;
+    margin-top: 15px;
+}
+.s_c input{
+    height: 21px;
+    width: 240px;
+    border: 0px;
+    background: none;
+}
+
+.s_y button{
+    width: 78px;
+    height: 21px;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+.dianhua{
+    margin-top: 13px;
+}
+.dianhua span{
+    font-size: 26px;
+    color: darkred;
 }
